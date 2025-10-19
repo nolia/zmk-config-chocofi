@@ -22,7 +22,7 @@
 &none  &kp Q               &kp W           &kp E           &kp R             &kp T      &kp Y    &kp U              &kp I            &kp O                &kp P                        &none
 &none  &mt LEFT_CONTROL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G      &kp H    &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_COMMAND L  &mt RIGHT_CONTROL SEMICOLON  &none
 &none  &kp Z               &kp X           &kp C           &kp V             &kp B      &kp N    &kp M              &kp COMMA        &kp DOT              &kp FSLH                     &none
-                                           &lt 1 ESC       &kp SPACE         &kp TAB    &kp RET  &kp BACKSPACE      &kp DELETE
+                                           &lt 1 ESC       &lt 2 SPACE       &kp TAB    &kp RET  &kp BACKSPACE      &kp DELETE
             >;
 
             label = "Alpha";
@@ -34,6 +34,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp SEMI  &mt RIGHT_SHIFT LBKT  &mt RIGHT_ALT RBKT     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans    &trans                &trans
+            >;
+        };
+
+        Nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp PAGE_UP     &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp END  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp PAGE_DOWN   &kp DOWN      &trans           &trans   &trans
+                        &trans  &trans  &trans    &trans    &trans          &trans
             >;
         };
     };
